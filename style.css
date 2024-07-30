@@ -54,7 +54,7 @@ body {
 
 @media(max-width: 480px) {
   .container {
-  width: 100vw;
+    width: 100vw;
     }
     
   .panel:nth-of-type(4),
