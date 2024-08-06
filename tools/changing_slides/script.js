@@ -5,6 +5,10 @@ const rightBtn = document.getElementById('right')
 
 let activeSlide = 0
 
+document.addEventListener('mousemove', function(event) {
+    console.log(`Mouse X: ${event.clientX}, Mouse Y: ${event.clientY}`);
+});
+
 rightBtn.addEventListener('click', () => {
     activeSlide++
 
